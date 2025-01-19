@@ -1,0 +1,27 @@
+body {
+    /* Estilos gerais para o corpo da página */
+    font-family: 'Acumin Variable Concept', sans-serif; /* Corrigir a propriedade font-family */
+    margin: 15px; /* Corrigir a propriedade margin */
+    background-color: #FF69B4; /* Cor rosa bebê */
+}
+
+img {
+    /* Estilos para todas as imagens */
+    max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz com que cada imagem ocupe uma linha inteira */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+}
+
+footer .container {
+    /* Seletor para a div com a classe "container" dentro do footer */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens da lista */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
