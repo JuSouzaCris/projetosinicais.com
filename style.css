@@ -7,7 +7,6 @@ body {
 
 im  g {
     /* Estilos para todas as imagens */
-    max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Faz com que cada imagem ocupe uma linha inteira */
     margin:2 auto; /* Centraliza as imagens horizontalmente */
