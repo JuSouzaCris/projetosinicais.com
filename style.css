@@ -5,12 +5,12 @@ body {
     background-color: #FF69B4; /* Cor rosa bebê */
 }
 
-im    g {
+im  g {
     /* Estilos para todas as imagens */
     max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Faz com que cada imagem ocupe uma linha inteira */
-    margin:20auto; /* Centraliza as imagens horizontalmente */
+    margin:2 auto; /* Centraliza as imagens horizontalmente */
     border-radius: 10px; /* Adiciona bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */ 
     hr {
@@ -34,7 +34,7 @@ im    g {
     
     footer ul {
       list-style: none; /* Remove os marcadores da lista */
-      padding: 0; /* Remove o espaçamento interno */  
+      padding: 0; /* Remove o espaçamento interno */
       margin: 0;    /* Remove o espaçamento externo */
     }
     
