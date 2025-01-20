@@ -5,23 +5,39 @@ body {
     background-color: #FF69B4; /* Cor rosa bebê */
 }
 
-img {
+im    g {
     /* Estilos para todas as imagens */
     max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Faz com que cada imagem ocupe uma linha inteira */
-    margin: 0 auto; /* Centraliza as imagens horizontalmente */
-}
-
-footer .container {
-    /* Seletor para a div com a classe "container" dentro do footer */
-    text-align: center; /* Centraliza o texto */
-}
-
-footer ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens da lista */
-    list-style: none; /* Remove os marcadores da lista */
-    padding: 0;
-}
+    margin:20auto; /* Centraliza as imagens horizontalmente */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */ 
+    hr {
+      border: none;
+      border-top: 2px solid #ccc; /* Linha horizontal mais discreta */
+      margin: 40px 0; 
+    }
+    
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+    
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    footer ul {
+      list-style: none; /* Remove os marcadores da lista */
+      padding: 0; /* Remove o espaçamento interno */  
+      margin: 0;    /* Remove o espaçamento externo */
+    }
+    
+    footer li {
+      margin-bottom: 5px;   
+    }   
