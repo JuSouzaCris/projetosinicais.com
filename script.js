@@ -1,10 +1,11 @@
 var hora = new Date().getHours();
 var mensagem;
 if (hora < 12) {
-  mensagem = "Bom dia!Este é meu primeiro projeto, obrigada pelo click!";
+  mensagem = "Boa noite!Este é meu primeiro projeto, obriga pelo click!Este site foi feito por mim, com muito carinho e dedicação. Júlia Cristina de Souza."
 } else if (hora < 18) {
-  mensagem = "Boa tarde!Este é meu primeiro projeto, obrigada pelo click!";
+  mensagem = "Boa noite!Este é meu primeiro projeto, obriga pelo click!Este site foi feito por mim, com muito carinho e dedicação. Júlia Cristina de Souza."
 } else {
-  mensagem = "Boa noite!Este é meu primeiro projeto, obriga pelo click!";
+  mensagem = "Boa noite!Este é meu primeiro projeto, obriga pelo click!Este site foi feito por mim, com muito carinho e dedicação. Júlia Cristina de Souza."
 }
 alert(mensagem);
+
